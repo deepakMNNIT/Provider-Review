@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import scoped_session, sessionmaker
 
-engine = create_engine('postgresql://postgres:8991Ngu@007@localhost:5432/postgres')
+engine = create_engine('postgresql://postgres:8991Ngu@007/postgres')
 db_session = scoped_session(sessionmaker(autocommit=False,
                                          autoflush=False,
                                          bind=engine))
