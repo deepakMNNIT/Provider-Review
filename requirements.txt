@@ -1,0 +1,10 @@
+flask
+nltk
+scikit-learn
+sklearn
+sqlalchemy
+graphene
+graphene_sqlalchemy
+Flask-GraphQL
+numpy
+scipy
